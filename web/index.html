@@ -22,10 +22,11 @@
                     <span class="subscribes">• Over 1.000 subscribes</span>
                 </div>
             </div>
-            <div class="form">
-                <input type="email" placeholder="Type your best email..." required>
-                <input type="button" value="🗞️    Subscribe" hx-post="/clicked">
-            </div>
+            <form class="form">
+                <label for="email">Email:</label>
+                <input type="email" required placeholder="Type your best email..." autocomplete="email">
+                <input type="submit" value="🗞️    Subscribe">
+            </form>
         </div>
     </div>
 </body>
