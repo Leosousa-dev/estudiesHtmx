@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newsletter</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <script defer src="https://unpkg.com/htmx.org@1.8.0/dist/htmx.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <div class="hero">
+                <img src="./assets/icon.svg" alt="logo">
+                <h3 class="title">Newsletter byte</h3>
+                <p class="about">O meu objetivo com essa newsletter e ajudar profissionais de tecnologia que desejam desenvolver um visao masi estrategica</p>
+                <div class="box">
+                    <span >By leonard</span>
+                    <span class="subscribes">• Over 1.000 subscribes</span>
+                </div>
+            </div>
+            <form hx-post="/Subscribe" class="form">
+                <label for="form">Email:</label>
+                <input type="email" required placeholder="Type your best email..." autocomplete="email">
+                <input type="submit" value="🗞️    Subscribe">
+            </form>
+
+            
+        </div>
+    </div>
+</body>
+</html>
