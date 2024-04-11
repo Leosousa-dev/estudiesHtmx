@@ -4,22 +4,12 @@
     font-family: "Poppins", sans-serif;
     box-sizing: border-box;
 }
-
 :root{
     --gray-100: #BFBDB8;
     --gray-300: #5E5A4F;
     --gray-400: #383425;
     --gray-700: #221D0D;
-    --alert: #FF6F6F;
-
 }
-
-body{
-   display: flex;
-   justify-content: center;
-   align-items: center;
-}
-
 .container{
     width: 100vw;
     height: 100vh;
@@ -27,8 +17,6 @@ body{
     align-items: center;
     justify-content: center;
 }
-
-
 .wrapper {
     max-width: 364px;
     display: flex;
